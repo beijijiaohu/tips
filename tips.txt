@@ -6,7 +6,7 @@
 	例如设置java的路径，就可以放在.profile 里面，这样用gui双击打开eclipse时就不会报错了
 	/etc/profile 则是针对所有用户的
 
-	file: files/.bashrc
+	file:  files/profile files/.bashrc
 
 2 /etc/fstab
 	是开机时设置挂载路径的文件
