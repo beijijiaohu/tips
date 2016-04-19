@@ -18,3 +18,12 @@
 	可以配置git的一些配置，同样在主目录下就代表针对当前用户的配置
 
 	file: files/.gitconfig
+
+4 file to hex
+	有时候我们需要将一个文件的完整内容包含的到C文件中的数组中
+	int array[] = {
+		#include "file.hex"
+	};
+	此时需要有工具将一个文件快速的转换为hex
+
+	file: tools/generate_hex.sh
