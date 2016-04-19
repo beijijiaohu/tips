@@ -14,3 +14,7 @@
 
 	file: files/fstab
 
+3 .gitconfig
+	可以配置git的一些配置，同样在主目录下就代表针对当前用户的配置
+
+	file: files/.gitconfig
